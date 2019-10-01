@@ -1,0 +1,2 @@
+Data Validation for talend_jobs/talend_out.txt: Pass
+Data Validation for talend_jobs/talend_out2.txt: Fail; Number of records do not match
