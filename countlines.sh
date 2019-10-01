@@ -15,7 +15,7 @@ do
 
 	if [ $count -eq "$(wc -l < $mr)" ]
 	then echo "Data Validation for $f: Pass" >> $resfile
-	else echo "Data Validation for $f: Fail; Number of records do not match" >> $resfile
+	else echo "Data Validation for $f: Fail; Number of records do not match" >> $resfile | exit 1
 	fi
 done
 
